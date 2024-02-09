@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAD50C02B75C5FF00955729 /* Diction_MasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50BF2B75C5FF00955729 /* Diction_MasterApp.swift */; };
+		ECAD50C22B75C5FF00955729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50C12B75C5FF00955729 /* ContentView.swift */; };
+		ECAD50C72B75C60100955729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD50C62B75C60100955729 /* Preview Assets.xcassets */; };
+		ECAD50E62B75D73800955729 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD50E52B75D73800955729 /* Assets */; };
+		ECAD50E82B75D74900955729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD50E72B75D74900955729 /* Assets.xcassets */; };
+		ECAD50EA2B75D75700955729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAD50E92B75D75700955729 /* LaunchScreen.storyboard */; };
+		ECAD50EE2B75E99800955729 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50ED2B75E99800955729 /* CacheManager.swift */; };
+		ECAD50F02B75E9D000955729 /* DictionaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50EF2B75E9D000955729 /* DictionaryService.swift */; };
+		ECAD50F22B75EA1B00955729 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50F12B75EA1B00955729 /* UserManager.swift */; };
+		ECAD50F42B75EB2700955729 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50F32B75EB2600955729 /* DictionaryViewModel.swift */; };
+		ECAD50F62B75FD6500955729 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50F52B75FD6500955729 /* WordDetailView.swift */; };
+		ECAD50F82B75FFB000955729 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50F72B75FFB000955729 /* PurchaseView.swift */; };
+		ECAD50FA2B7603C300955729 /* WordDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50F92B7603C300955729 /* WordDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECAD50BC2B75C5FF00955729 /* Diction-Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diction-Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAD50BF2B75C5FF00955729 /* Diction_MasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diction_MasterApp.swift; sourceTree = "<group>"; };
+		ECAD50C12B75C5FF00955729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECAD50C62B75C60100955729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECAD50E52B75D73800955729 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		ECAD50E72B75D74900955729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets/Assets.xcassets; sourceTree = "<group>"; };
+		ECAD50E92B75D75700955729 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAD50ED2B75E99800955729 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		ECAD50EF2B75E9D000955729 /* DictionaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DictionaryService.swift; path = ../ViewModel/DictionaryService.swift; sourceTree = "<group>"; };
+		ECAD50F12B75EA1B00955729 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		ECAD50F32B75EB2600955729 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
+		ECAD50F52B75FD6500955729 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailView.swift; sourceTree = "<group>"; };
+		ECAD50F72B75FFB000955729 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		ECAD50F92B7603C300955729 /* WordDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAD50B92B75C5FF00955729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAD50B32B75C5FF00955729 = {
+			isa = PBXGroup;
+			children = (
+				ECAD50BE2B75C5FF00955729 /* Diction-Master */,
+				ECAD50BD2B75C5FF00955729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAD50BD2B75C5FF00955729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50BC2B75C5FF00955729 /* Diction-Master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAD50BE2B75C5FF00955729 /* Diction-Master */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50CD2B75C61400955729 /* Models */,
+				ECAD50D32B75C65000955729 /* View */,
+				ECAD50DA2B75C69D00955729 /* ViewModel */,
+				ECAD50D02B75C62900955729 /* Services */,
+				ECAD50BF2B75C5FF00955729 /* Diction_MasterApp.swift */,
+				ECAD50E92B75D75700955729 /* LaunchScreen.storyboard */,
+				ECAD50E72B75D74900955729 /* Assets.xcassets */,
+				ECAD50E52B75D73800955729 /* Assets */,
+				ECAD50C52B75C60100955729 /* Preview Content */,
+			);
+			path = "Diction-Master";
+			sourceTree = "<group>";
+		};
+		ECAD50C52B75C60100955729 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50C62B75C60100955729 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECAD50CD2B75C61400955729 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50F92B7603C300955729 /* WordDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECAD50D02B75C62900955729 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50EF2B75E9D000955729 /* DictionaryService.swift */,
+				ECAD50ED2B75E99800955729 /* CacheManager.swift */,
+				ECAD50F12B75EA1B00955729 /* UserManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECAD50D32B75C65000955729 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50C12B75C5FF00955729 /* ContentView.swift */,
+				ECAD50F52B75FD6500955729 /* WordDetailView.swift */,
+				ECAD50F72B75FFB000955729 /* PurchaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECAD50DA2B75C69D00955729 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECAD50F32B75EB2600955729 /* DictionaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAD50BB2B75C5FF00955729 /* Diction-Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAD50CA2B75C60100955729 /* Build configuration list for PBXNativeTarget "Diction-Master" */;
+			buildPhases = (
+				ECAD50B82B75C5FF00955729 /* Sources */,
+				ECAD50B92B75C5FF00955729 /* Frameworks */,
+				ECAD50BA2B75C5FF00955729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diction-Master";
+			productName = "Diction-Master";
+			productReference = ECAD50BC2B75C5FF00955729 /* Diction-Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAD50B42B75C5FF00955729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ECAD50BB2B75C5FF00955729 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = ECAD50B72B75C5FF00955729 /* Build configuration list for PBXProject "Diction-Master" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAD50B32B75C5FF00955729;
+			productRefGroup = ECAD50BD2B75C5FF00955729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAD50BB2B75C5FF00955729 /* Diction-Master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAD50BA2B75C5FF00955729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD50C72B75C60100955729 /* Preview Assets.xcassets in Resources */,
+				ECAD50EA2B75D75700955729 /* LaunchScreen.storyboard in Resources */,
+				ECAD50E82B75D74900955729 /* Assets.xcassets in Resources */,
+				ECAD50E62B75D73800955729 /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAD50B82B75C5FF00955729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAD50F42B75EB2700955729 /* DictionaryViewModel.swift in Sources */,
+				ECAD50EE2B75E99800955729 /* CacheManager.swift in Sources */,
+				ECAD50F02B75E9D000955729 /* DictionaryService.swift in Sources */,
+				ECAD50F82B75FFB000955729 /* PurchaseView.swift in Sources */,
+				ECAD50C22B75C5FF00955729 /* ContentView.swift in Sources */,
+				ECAD50FA2B7603C300955729 /* WordDetails.swift in Sources */,
+				ECAD50F22B75EA1B00955729 /* UserManager.swift in Sources */,
+				ECAD50F62B75FD6500955729 /* WordDetailView.swift in Sources */,
+				ECAD50C02B75C5FF00955729 /* Diction_MasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECAD50C82B75C60100955729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECAD50C92B75C60100955729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAD50CB2B75C60100955729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diction-Master/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X9X2ZR556;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DictionMaster.app.Diction-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAD50CC2B75C60100955729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diction-Master/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X9X2ZR556;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DictionMaster.app.Diction-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAD50B72B75C5FF00955729 /* Build configuration list for PBXProject "Diction-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD50C82B75C60100955729 /* Debug */,
+				ECAD50C92B75C60100955729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAD50CA2B75C60100955729 /* Build configuration list for PBXNativeTarget "Diction-Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAD50CB2B75C60100955729 /* Debug */,
+				ECAD50CC2B75C60100955729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAD50B42B75C5FF00955729 /* Project object */;
+}

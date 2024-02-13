@@ -2,8 +2,6 @@ Falou - Fast Language Learning
 
 IOS Teste App
 
-Olá se você chegou até aqui você já passou pela nossa primeira etapa e está preparado para seguir em frente em nosso processo. No Falou estamos sempre buscando pessoas que buscam melhorar sempre para ser a melhor versão delas mesmas, tudo isto com muita diversão e gostando do que faz. Queremos que o Lou, nosso mascote, domine o mundo e você pode fazer parte desta jornada.
-
 Sobre o teste
 
 Este teste que você fará tem por objetivo verificar seu nível de maturidade como programador e em última instância seu nível de maturidade como desenvolvedor IOS. Queremos entender sua organização de código, sua visão de arquitetura e como você respeita o design e a UX definida. 
